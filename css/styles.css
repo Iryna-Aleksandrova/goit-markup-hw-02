@@ -206,16 +206,15 @@ address {
 }
 
 /* Основні стилі для посилань у навігації */
+.nav-link,
 .nav-link-studio {
   color: #2e2f42; /* базовий колір тексту */
   text-decoration: none;
   transition: color 0.3s, background-color 0.3s, border 0.3s; /* плавний перехід кольору */
   border: 1px dashed transparent; /* базовий стиль рамки */
 }
-
-.nav-link,
 .contacts-link {
-  color: #2e2f42; /* базовий колір тексту */
+  color: #434455; /* базовий колір тексту */
   text-decoration: none;
   transition: color 0.3s, background-color 0.3s, border 0.3s; /* плавний перехід кольору */
   border: 1px dashed transparent; /* базовий стиль рамки */
@@ -223,31 +222,25 @@ address {
 
 /* Стан при наведенні мишкою (hover) */
 .nav-link:hover,
-.nav-link-studio,
+.nav-link-studio:hover,
 .contacts-link:hover {
   color: #404bbf; /* змінюється колір тексту при ховері */
 }
 
-/* Стан при фокусі з клавіатури (focus) */
-.nav-link-studio:focus {
-  text-decoration-line: #404bbf; /* видаляє стандартний контур */
-  color: #404bbf; /* змінюється колір тексту при фокусі */
-}
-
 /* Стан при активному натисканні (active) */
-.nav-link-studio:focus:active {
-  outline: #404bbf;
+.nav-link-studio:active {
+  text-decoration: underline;
   color: #404bbf; /* колір тексту при активному стані */
 }
 
 /* Стан при наведенні мишкою (hover) */
-.button:hover {
+.interactive-button:hover {
   background-color: #0056b3;
   transform: scale(1.05); /* збільшується масштаб при ховері */
 }
 
 /* Стан при активному натисканні (active) */
-.button:active {
+.interactive-button:active {
   background-color: #003f7f;
   transform: scale(0.95); /* зменшується масштаб при натисканні */
 }
