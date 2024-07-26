@@ -148,7 +148,7 @@ address {
 /* Section 3 Our Team */
 .team {
   font-family: "Roboto", sans-serif;
-  background-color: #ffffff;
+  background-color: #f4f4fd;
 }
 
 .team-title {
@@ -161,7 +161,7 @@ address {
   color: #2e2f42;
 }
 
-.team-list .team-subtitle {
+.team-subtitle {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -178,6 +178,7 @@ address {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+  background-color: #ffffff;
 }
 
 /* Section 4 Our Portfolio */
