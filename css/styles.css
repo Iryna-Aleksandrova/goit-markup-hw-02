@@ -161,14 +161,21 @@ address {
   color: #2e2f42;
 }
 
+.team-item {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
 .team-subtitle {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #2e2f42;
-  background-color: #ffffff;
 }
 
 .team-text {
@@ -176,9 +183,7 @@ address {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #434455;
-  background-color: #ffffff;
 }
 
 /* Section 4 Our Portfolio */
