@@ -8,7 +8,6 @@ body {
 a {
   text-decoration: none;
   color: #2e2f42;
-  color: #434455;
 }
 
 ul,
@@ -71,7 +70,8 @@ address {
 }
 
 /* Стан при фокусі (focus) */
-.nav-link:focus .contacts-link:focus {
+.nav-link:focus,
+.contacts-link:focus {
   color: #404bbf; /* змінюється колір тексту при фокусі */
 }
 
@@ -86,6 +86,7 @@ address {
   background-color: #2e2f42;
   color: #ffffff;
 }
+
 .hero-title {
   font-weight: 700;
   font-size: 56px;
@@ -111,9 +112,10 @@ address {
 .interactive-button:hover {
   background-color: #404bbf;
 }
+
 /* Стан при фокусі (focus) */
 .interactive-button:focus {
-  background-color: #404bbf; /* змінюється колір тексту при фокусі */
+  background-color: #404bbf; /* змінюється колір фону при фокусі */
 }
 
 /* Section 2 Benefits */
@@ -146,7 +148,7 @@ address {
 /* Section 3 Our Team */
 .team {
   font-family: "Roboto", sans-serif;
-  background-color: #f4f4fd;
+  background-color: #ffffff;
 }
 
 .team-title {
@@ -177,11 +179,13 @@ address {
   text-align: center;
   color: #434455;
 }
+
 /* Section 4 Our Portfolio */
 .portfolio {
   font-family: "Roboto", sans-serif;
   background-color: #ffffff;
 }
+
 .portfolio-title {
   font-weight: 700;
   font-size: 36px;
@@ -191,6 +195,7 @@ address {
   text-transform: capitalize;
   color: #2e2f42;
 }
+
 .portfolio-subtitle {
   font-weight: 500;
   font-size: 20px;
@@ -200,6 +205,7 @@ address {
   color: #2e2f42;
   background-color: #ffffff;
 }
+
 .portfolio-text {
   font-weight: 400;
   font-size: 16px;
@@ -207,6 +213,7 @@ address {
   letter-spacing: 0.02em;
   color: #434455;
 }
+
 /* Footer */
 .footer {
   background-color: #2e2f42;
