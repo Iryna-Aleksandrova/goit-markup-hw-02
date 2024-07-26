@@ -1,7 +1,6 @@
 /* Загальні властивості */
-
 body {
-  font-family: "Roboto" sans-serif;
+  font-family: "Roboto", sans-serif;
   background-color: #ffffff;
   color: #434455;
 }
@@ -72,7 +71,7 @@ address {
 }
 
 /* Стан при фокусі (focus) */
-.nav-link:focus {
+.nav-link:focus .contacts-link:focus {
   color: #404bbf; /* змінюється колір тексту при фокусі */
 }
 
@@ -82,7 +81,7 @@ address {
   color: #404bbf; /* колір тексту при активному стані */
 }
 
-/* Hero */
+/* Section 1 Hero */
 .hero {
   background-color: #2e2f42;
   color: #ffffff;
@@ -96,18 +95,18 @@ address {
 }
 
 .interactive-button {
-  font-family: "Roboto" sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
-  line-height: 24px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
-  background-color: #4d5ae5;
-  color: #ffffff;
   text-align: center;
   outline: none;
+  background-color: #4d5ae5;
+  color: #ffffff;
 }
+
 /* Стан при наведенні мишкою */
 .interactive-button:hover {
   background-color: #404bbf;
@@ -117,7 +116,7 @@ address {
   background-color: #404bbf; /* змінюється колір тексту при фокусі */
 }
 
-/* Section 1 Benefits */
+/* Section 2 Benefits */
 .benefits {
   background-color: #ffffff;
 }
@@ -144,7 +143,7 @@ address {
   color: #434455;
 }
 
-/* Section 2 Our Team */
+/* Section 3 Our Team */
 .team {
   font-family: "Roboto", sans-serif;
   background-color: #f4f4fd;
@@ -153,9 +152,10 @@ address {
 .team-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
   color: #2e2f42;
 }
 
@@ -166,6 +166,7 @@ address {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  background-color: #ffffff;
 }
 
 .team-text {
@@ -176,7 +177,7 @@ address {
   text-align: center;
   color: #434455;
 }
-/* Section 3 Our Portfolio */
+/* Section 4 Our Portfolio */
 .portfolio {
   font-family: "Roboto", sans-serif;
   background-color: #ffffff;
@@ -184,7 +185,7 @@ address {
 .portfolio-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
@@ -197,6 +198,7 @@ address {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  background-color: #ffffff;
 }
 .portfolio-text {
   font-weight: 400;
